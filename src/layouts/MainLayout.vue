@@ -86,7 +86,7 @@ export default {
       links1: [
         { icon: 'home', text: 'Inicio', path: '/' },
         { icon: 'whatshot', text: 'Crear usuarios', path: '/crear-usuarios' },
-        { icon: 'whatshot', text: 'Usuarios', path: '/usuarios' },
+        { icon: 'whatshot', text: 'Actividades', path: '/actividades' },
       ],
     }
   }

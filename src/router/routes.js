@@ -9,7 +9,7 @@ const routes = [
     children: [
       { path: '/inicio', component: () => import('pages/Inicio.vue') },
       { path: '/crear-usuarios', component: () => import('pages/Crear-Usuarios.vue') },
-      { path: '/usuarios', component: () => import('pages/Usuarios.vue') },
+      { path: '/actividades', component: () => import('pages/Actividades.vue') },
     ]
   },
 

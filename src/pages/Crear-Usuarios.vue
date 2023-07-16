@@ -1,10 +1,7 @@
 <template>
   <div class="q-pa-md" style="max-width: 400px">
-
-    <h3>Usuarios</h3>
-
     <div>
-      <h6>Registrar</h6>
+      <h6>Registrar usuarios</h6>
       <q-form @submit="onSubmit" @reset="onReset" class="q-gutter-md">
         <q-input dense outlined v-model="FirstName" label="Primer nombre" />
         <q-input dense outlined v-model="MiddleName" label="Segundo nombre" />
