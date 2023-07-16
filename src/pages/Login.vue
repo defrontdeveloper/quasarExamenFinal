@@ -43,7 +43,7 @@ const login = () => {
   api.post('/userauthentications/login', datos)
     .then((response) => {
       if(response.status === 201) {
-        router.push('/usuarios');
+        router.push('/crear-usuarios');
       }
     })
     .catch((err) => {

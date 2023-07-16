@@ -8,13 +8,8 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '/inicio', component: () => import('pages/Inicio.vue') },
-      { path: '/productos', component: () => import('pages/Productos.vue') },
+      { path: '/crear-usuarios', component: () => import('pages/Crear-Usuarios.vue') },
       { path: '/usuarios', component: () => import('pages/Usuarios.vue') },
-
-
-
-
-
     ]
   },
 
